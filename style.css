@@ -1,5 +1,5 @@
 body {
-    font-family: Roboto, sans-serif ;
+    font-family: "Roboto", sans-serif ;
     margin: 0px;
     min-height: 100vh;
     display: flex;
@@ -15,10 +15,59 @@ body {
     box-sizing: border-box;
     background-color: #1F2937;
     padding-top: 20px;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 220px;
+    padding-right: 220px;
     padding-bottom: 20px;
     color: white;
+}
+ .content {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+     flex: 1 1 auto;
+ }
+
+.panel1 {
+    display: flex;
+    background-color: #1F2937;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 100px;
+    gap: 50px;
+}
+
+.hero {
+    display: flex;
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+    margin: 0px;
+    padding: 0px;
+    flex-wrap: wrap;
+    width: 340px;
+    flex: 1 0 autos;
+}
+.herosub {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #e5e7eb;
+    padding: 5px;
+}
+
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+    color: #f9faf8;
+
 }
 
 ul {
@@ -30,10 +79,15 @@ a {
     text-decoration: none;
     color: white;
 }
+p {
+margin: 0px;
+padding: 0px;
+}
 
 .header-links {
+    font-size: 18px;
     display: flex;
     flex-direction: row;
     gap: 15px;
-
+    color: #e5e7eb;
 }
