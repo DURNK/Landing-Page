@@ -38,7 +38,97 @@ body {
     color: white;
     padding: 100px;
     gap: 50px;
+    height: 500px;
 }
+
+.panel2{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+}
+
+.panel3 {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: #e5e7eb;
+    width: 100%;
+}
+
+.panel4 {
+    display: flex;
+    align-items: center;
+    height: 500px;
+}
+
+.modal {
+    display: flex;
+    background-color: #3882f6;
+    padding: 40px;
+    gap: 40px;
+    border-radius: 10px;
+}
+.seller-content {
+    color: #e5e7eb;
+}
+
+.seller-header {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.quote {
+    display: flex;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    width: 30%;
+}
+
+.credit {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    width: 30%;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.showtxt {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    padding: 40px;
+}
+.photos {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    border-color: aqua;
+
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    flex: 1;
+}
+.text {
+    display: flex;
+    flex-wrap: wrap;
+    width: 240px;
+    flex: 1 1 auto;
+    padding: 10px;
+}
+
 
 .hero {
     display: flex;
@@ -54,11 +144,20 @@ body {
 .herosub {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 6px;
     color: #e5e7eb;
     padding: 5px;
+    padding-bottom: 10px;
 }
 
+.sign {
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #e5e7eb;
+    background-color: #3882f6;
+}
 
 
 .logo {
@@ -67,7 +166,6 @@ body {
     padding: 0px;
     margin: 0px;
     color: #f9faf8;
-
 }
 
 ul {
